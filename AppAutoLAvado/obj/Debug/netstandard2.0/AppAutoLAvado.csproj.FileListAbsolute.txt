@@ -1,0 +1,17 @@
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\bin\Debug\netstandard2.0\AppAutoLAvado.deps.json
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\bin\Debug\netstandard2.0\AppAutoLAvado.dll
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\bin\Debug\netstandard2.0\ref\AppAutoLAvado.dll
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\bin\Debug\netstandard2.0\AppAutoLAvado.pdb
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.csproj.AssemblyReference.cache
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.AssemblyInfoInputs.cache
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.AssemblyInfo.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.csproj.CoreCompileInputs.cache
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.dll
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\ref\AppAutoLAvado.dll
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.pdb
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Registrate.xaml.g.cs
