@@ -21,18 +21,18 @@
                 
                 <StackLayout Grid.Row="1" Padding="30,20" >
 
-                    <Entry Placeholder="Usuario" PlaceholderColor="AntiqueWhite" TextColor="AntiqueWhite" HorizontalOptions="Center" VerticalTextAlignment="Center"  FontSize="Large"/>
-                    <Entry Placeholder="Password" PlaceholderColor="AntiqueWhite" TextColor="AntiqueWhite" HorizontalOptions="Center" VerticalTextAlignment="Center" IsPassword="True" FontSize="Large"  />
-                    <Button Text="OK" BackgroundColor="Black" FontSize="Large"   TextColor="AntiqueWhite"  Margin="0,100,0,0"/>
+                    <Entry x:Name="txtUsuario" Placeholder="Usuario" PlaceholderColor="AntiqueWhite" TextColor="AntiqueWhite" HorizontalOptions="Center" VerticalTextAlignment="Center"  FontSize="Large"/>
+                    <Entry  x:Name="txtPassword" Placeholder="Password" PlaceholderColor="AntiqueWhite" TextColor="AntiqueWhite" HorizontalOptions="Center" VerticalTextAlignment="Center" IsPassword="True" FontSize="Large"  />
+                    <Button x:Name="btnLogIn" Text="OK" BackgroundColor="Black" FontSize="Large"   TextColor="AntiqueWhite"  Margin="0,100,0,0" Clicked="btnLogIn_Clicked"/>
 
                 </StackLayout>
                 <StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,50">
                     <Button Text="Registrate aqui" x:Name="btnRegistrate" Clicked="btnRegistrate_Clicked"/>
-                    <!--Label Text="Registrate con:" FontSize="Medium" TextColor="Black"  />
+                    <Label Text="Registrate con:" FontSize="Medium" TextColor="Black"  />
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Grid.Row="0" Source="logoGoogle.png" HeightRequest="45" />
                         
-                    </StackLayout-->
+                    </StackLayout>
                 </StackLayout>
             </Grid>
         </Grid>

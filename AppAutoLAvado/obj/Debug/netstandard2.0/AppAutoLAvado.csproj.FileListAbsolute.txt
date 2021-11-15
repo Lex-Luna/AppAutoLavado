@@ -15,3 +15,5 @@ C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\AppAutoLAvado.pdb
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Login.xaml.g.cs
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Registrate.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Reserva.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Resumen.xaml.g.cs

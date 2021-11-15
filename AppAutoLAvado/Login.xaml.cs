@@ -21,7 +21,15 @@ namespace AppAutoLAvado
 
         private async void btnRegistrate_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Registrate());
+            
+                await Navigation.PushAsync(new Registrate());
+            
+        }
+
+
+        private async void btnLogIn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Reserva());
         }
     }
 }

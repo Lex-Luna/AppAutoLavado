@@ -16,5 +16,23 @@ namespace AppAutoLAvado
         {
             InitializeComponent();
         }
+
+        private async void btnAcptar_Clicked(object sender, EventArgs e)
+        {
+            /*try
+            {
+
+            }
+            catch (Exception)
+            {
+                DisplayAlert("Error");
+            }*/
+            await Navigation.PushAsync(new Login());
+        }
     }
+
+
+
+      
+    
 }
