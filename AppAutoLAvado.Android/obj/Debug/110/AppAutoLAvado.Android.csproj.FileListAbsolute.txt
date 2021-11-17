@@ -573,7 +573,6 @@ C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\st
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\AppAutoLAvado.Android.csproj.CopyComplete
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\res\drawable\logo.jpg
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\res\drawable\autolavado_img1.png
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\res\drawable\logogoogle.png
