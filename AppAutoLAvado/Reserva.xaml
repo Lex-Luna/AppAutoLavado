@@ -43,19 +43,19 @@
                             
                         </Grid.ColumnDefinitions>
 
-                        <CheckBox x:Name="chLavCompleto"  Grid.Row="0" Grid.Column="0"/>
-                        <Label x:Name="lblLavadoCompleto" Text="lavado completo" FontSize="Large"  Grid.Row="0" Grid.Column="1" />
+                        <RadioButton x:Name="chLavCompleto"  Grid.Row="0" Grid.Column="0" IsChecked="False" GroupName="opcion" />
+                        <Label x:Name="lblLavadoCompleto" Text="Lavado completo del Auto" FontSize="Large"  Grid.Row="0" Grid.Column="1" />
 
-                        <CheckBox x:Name="chLavadoExpres" Grid.Row="1" Grid.Column="0"/>
-                        <Label x:Name="lblLavadoExpres" Text="Lavado Expres" FontSize="Large" Grid.Row="1" Grid.Column="1"/>
+                        <RadioButton x:Name="chLavadoExpres" Grid.Row="1" Grid.Column="0" IsChecked="False" GroupName="opcion"/>
+                        <Label x:Name="lblLavadoExpres" Text="Lavado Expres del Auto" FontSize="Large" Grid.Row="1" Grid.Column="1"/>
 
-                        <CheckBox x:Name="chLavadoAspirado" Grid.Row="2" Grid.Column="0"/>
-                        <Label x:Name="lblLavadoAspirado" Text="Lavado y Aspirado" FontSize="Large" Grid.Row="2" Grid.Column="1"/>
+                        <RadioButton x:Name="chLavadoAspirado" Grid.Row="2" Grid.Column="0" IsChecked="False" GroupName="opcion"/>
+                        <Label x:Name="lblLavadoAspirado" Text="Lavado y Aspirado del Auto" FontSize="Large" Grid.Row="2" Grid.Column="1"/>
 
-                        <CheckBox x:Name="chAspirado" Grid.Row="3" Grid.Column="0"/>
-                        <Label x:Name="lblAspirado" Text="Aspirado" FontSize="Large" Grid.Row="3" Grid.Column="1" />
+                        <RadioButton x:Name="chAspirado" Grid.Row="3" Grid.Column="0" IsChecked="False" GroupName="opcion"/>
+                        <Label x:Name="lblAspirado" Text="Aspirado del Auto" FontSize="Large" Grid.Row="3" Grid.Column="1" />
 
-                        <CheckBox x:Name="chAceite" Grid.Row="4" Grid.Column="0"/>
+                        <CheckBox x:Name="chAceite" Grid.Row="4" Grid.Column="0" IsChecked="False"/>
                         <Label x:Name="lblAceite" Text="Cambio de Aceite" FontSize="Large" Grid.Row="4" Grid.Column="1" />
 
                         <Button x:Name="btnAcptar" Text="Acptar" Clicked="btnAcptar_Clicked"  Grid.Row="5" Grid.Column="1"/>

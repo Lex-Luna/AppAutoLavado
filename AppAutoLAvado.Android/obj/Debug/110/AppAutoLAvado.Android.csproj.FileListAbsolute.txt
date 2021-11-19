@@ -576,3 +576,4 @@ C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\st
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\res\drawable\logo.jpg
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\res\drawable\autolavado_img1.png
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\res\drawable\logogoogle.png
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado.Android\obj\Debug\110\AppAutoLAvado.Android.csproj.CopyComplete
