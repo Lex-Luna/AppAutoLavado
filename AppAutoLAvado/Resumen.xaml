@@ -14,11 +14,11 @@
                 <StackLayout Grid.Row="0" Padding="30,20">
                     <Label Text="Verifique su pedido para que puea ser prosesado" HorizontalOptions="CenterAndExpand"  FontSize="Large" TextColor="Aquamarine"/>
                     <Label Text="La fehca de su turno es:" FontSize="Large" />
-                    <Label />
+                    <Label x:Name="lblFecha"/>
                     <Label Text="los Servicios que usted requere son:" FontSize="Large" />
-                    <Label />
+                    <Label x:Name="lblServicios"/>
                     <Label Text="El valor a pagar es:" FontSize="Large"/>
-                    <Label />
+                    <Label x:Name="lblPrecio"/>
                     <Label Text="Si usted esta de acuerdo con todo pulse Submit"  FontSize="Large" Margin="30,20" />
                     <Button x:Name="btnSubmit" Text="Submit" Margin="30,20" FontSize="Large"  />
                 </StackLayout>

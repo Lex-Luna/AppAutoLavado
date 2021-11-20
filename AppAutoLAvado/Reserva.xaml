@@ -18,8 +18,9 @@
                     <Label Text="Ingrese el dia que desea reservar" HorizontalOptions="Center" FontSize="Large" TextColor="Aquamarine" Margin="10,30" />
                     <DatePicker x:Name="fechaPicker" HorizontalOptions="Center" DateSelected="fechaPicker_DateSelected" />
                     
-                    <Label  x:Name="lblInfo" Text="Su reserva esta programada para la fecha:" HorizontalOptions="Center" />
-                    <Label  x:Name="lblFecha" Text="Su reserva esta programada para" HorizontalOptions="Center" />
+                    <Label  Text="Su reserva esta programada para la fecha:" HorizontalOptions="Center" />
+                    <Label  x:Name="lblFecha"  HorizontalOptions="Center" />
+                    <!--Text="Su reserva esta programada para"-->
                     
                     
                     <Label Text="Seleccione uno o varios servicios que usted desee por favor" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" TextColor="Aquamarine" Margin="10,80" />
@@ -56,7 +57,7 @@
                         <Label x:Name="lblAspirado" Text="Aspirado del Auto" FontSize="Large" Grid.Row="3" Grid.Column="1" />
 
                         <CheckBox x:Name="chAceite" Grid.Row="4" Grid.Column="0" IsChecked="False"/>
-                        <Label x:Name="lblAceite" Text="Cambio de Aceite" FontSize="Large" Grid.Row="4" Grid.Column="1" />
+                        <Label x:Name="lblAceite" Text="Cambio de Aceite" FontSize="Large" Grid.Row="4" Grid.Column="1" />  
 
                         <Button x:Name="btnAcptar" Text="Acptar" Clicked="btnAcptar_Clicked"  Grid.Row="5" Grid.Column="1"/>
 

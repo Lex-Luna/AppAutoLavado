@@ -19,14 +19,11 @@ namespace AppAutoLAvado
 
         private async void btnAcptar_Clicked(object sender, EventArgs e)
         {
-            /*try
+            if (String.IsNullOrWhiteSpace(txtNombre.Text))
             {
-
+                await this.DisplayAlert("Advertencia", "El campo del nombre es obligatorio.", "OK");
+                
             }
-            catch (Exception)
-            {
-                DisplayAlert("Error");
-            }*/
             await Navigation.PushAsync(new Login());
         }
     }

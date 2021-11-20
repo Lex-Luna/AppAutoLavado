@@ -25,45 +25,52 @@ namespace AppAutoLAvado
         private async void btnAcptar_Clicked(object sender, EventArgs e)
         {
             float precio = 0;
-            if (chLavCompleto.IsChecked )
+            string mensaje="";
+            if (chLavCompleto.IsChecked)
             {
+                mensaje = "Lavado completo";
                 precio += 45;
                 if (chAceite.IsChecked)
                 {
+
                     precio += 10;
+                    mensaje = "Lavado completo y cambio de aceite";
                 }
             }
             else if (chLavadoExpres.IsChecked)
             {
+                mensaje = "Lavado express";
                 precio += 25;
                 if (chAceite.IsChecked)
                 {
                     precio += 10;
+                    mensaje = "Lavado express y cambio de aceite";
                 }
             }
             else if (chLavadoAspirado.IsChecked)
             {
+                mensaje = "Lavado y aspirado";
                 precio += 55;
                 if (chAceite.IsChecked)
                 {
                     precio += 10;
+                    mensaje = "Lavado, aspirado y cambio de aceite";
                 }
             }
             else if (chAspirado.IsChecked)
             {
                 precio += 10;
+                mensaje = "Solo aspirado";
                 if (chAceite.IsChecked)
                 {
                     precio += 10;
+                    mensaje = "Aspirado y cambio de aceite";
                 }
             }
-            /*else if (chAceite.IsChecked)
-            {
-                precio += 10;
-            }*/
+            string fecha = lblFecha.Text;
 
             await DisplayAlert("Alert", "El precio de tu compra es:"+precio, "OK");
-            await Navigation.PushAsync(new Resumen());
+            await Navigation.PushAsync(new Resumen(fecha,precio, mensaje));
         }
 
     }
