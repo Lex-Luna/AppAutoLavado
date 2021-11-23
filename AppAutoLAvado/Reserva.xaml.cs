@@ -19,11 +19,13 @@ namespace AppAutoLAvado
 
         private void fechaPicker_DateSelected(object sender, DateChangedEventArgs e)
         {
+            fechaPicker.MinimumDate = DateTime.Now;
             lblFecha.Text = fechaPicker.Date.ToString();
         }
 
         private async void btnAcptar_Clicked(object sender, EventArgs e)
         {
+            throw new NotImplementedException();
             float precio = 0;
             string mensaje="";
             if (chLavCompleto.IsChecked)
