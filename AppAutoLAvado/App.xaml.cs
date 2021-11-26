@@ -12,6 +12,7 @@ namespace AppAutoLAvado
             InitializeComponent();
 
             MainPage = new NavigationPage(new Login());
+            //MainPage = new MainPage();
         }
 
         protected override void OnStart()

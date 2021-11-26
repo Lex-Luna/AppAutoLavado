@@ -12,6 +12,7 @@ namespace AppAutoLAvado
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
+        public static MasterDetailPage MasterDet { get; set; }
         public Login()
         {
             InitializeComponent();
@@ -29,6 +30,7 @@ namespace AppAutoLAvado
 
         private async void btnLogIn_Clicked(object sender, EventArgs e)
         {
+
 
             await Navigation.PushAsync(new MainPage());
         }
