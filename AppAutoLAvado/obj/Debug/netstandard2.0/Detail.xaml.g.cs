@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAutoLAvado.MainPage.xaml", "MainPage.xaml", typeof(global::AppAutoLAvado.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppAutoLAvado.Detail.xaml", "Detail.xaml", typeof(global::AppAutoLAvado.Detail))]
 
 namespace AppAutoLAvado {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.MasterDetailPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Detail.xaml")]
+    public partial class Detail : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Detail));
         }
     }
 }

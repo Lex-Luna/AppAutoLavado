@@ -17,3 +17,6 @@ C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Registrate.xaml.g.cs
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Reserva.xaml.g.cs
 C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Resumen.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Detail.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\LsReservas.xaml.g.cs
+C:\Users\lex-l\source\repos\AppAutoLAvado\AppAutoLAvado\obj\Debug\netstandard2.0\Master1.xaml.g.cs

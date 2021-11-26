@@ -29,7 +29,8 @@ namespace AppAutoLAvado
 
         private async void btnLogIn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Reserva());
+
+            await Navigation.PushAsync(new MainPage());
         }
     }
 }

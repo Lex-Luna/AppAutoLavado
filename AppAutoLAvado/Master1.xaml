@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAutoLAvado.Master1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Master"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Mi Rserva/s" x:Name="btnLsReservas" Clicked="btnLsReservas_Clicked"/>
+            <Button Text="Añadir una Reserva" x:Name="btnReserva" Clicked="btnReserva_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
